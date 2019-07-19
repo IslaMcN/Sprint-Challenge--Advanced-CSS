@@ -1,1 +1,36 @@
 // Navigation code here
+.navbar{
+   
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: @nav-bg;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    @media @phone {
+        margin-top: 10%;
+    }
+}
+    a{
+        
+        padding: 2% 5%;
+        text-decoration: none;
+        font-size: 2rem;
+        color: @nav-font;
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        @media @phone {
+            font-size:1.25rem;
+        }
+         a:hover {
+            background: @nav-font;
+            color: @nav-bg;
+            
+    }
+}
