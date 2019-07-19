@@ -6,29 +6,31 @@
     align-content: center;
     margin-top: 5%;
     overflow: hidden;
-    background-color: #e55039;
+    background-color: @nav-bg;
     position: fixed; 
     top: 0; 
-    width: 100%; /* Full width */
-  }
-  
-
-  
-  /* Change background on mouse-over */
-  
+    width: 100%; 
+    @media @phone {
+        margin-top: 10%;
+    }
+}
     a{
         
         padding: 2% 5%;
         text-decoration: none;
         font-size: 2rem;
-        color: black;
+        color: @nav-font;
         float: left;
         display: block;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        @media @phone {
+            font-size:1.25rem;
+        }
          a:hover {
-            background: #1e3799;
-            color: #0a3d62;
+            background: @nav-font;
+            color: @nav-bg;
+            
     }
 }

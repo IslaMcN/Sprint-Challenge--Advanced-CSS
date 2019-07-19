@@ -1,1 +1,11 @@
 // Mixins Here
+.alpha(){
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.beta(@display,@justify){
+    display:@display;
+    justify-content:@justify;
+}
