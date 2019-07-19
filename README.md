@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive sites adapt at certain points. Responsive sites change no matter the screen size. If the screen was 100000000px or 300px the site should automatically respond and adjust.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you start first with how you want your site on a mobile device to look and then work your way up in screen size. You will us min-width in the media query.
+
+Desktop first is the exact opposite as mobile first. You start with how you want the site to look on desktop and then work your way down to smaller screen sizes. You will use max-width in your media query.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It will allow the text to adjust to the browsers setting (ex: font size Very Small, Small, Medium, Large and Very Large) and when you set font sizes in the CSS you can use rem. With the html font size set to 62.5%, 1rem = 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is basically a translator. You can write in LESS, an easier way of doing CSS, and then the preprocessor will take the LESS file and translate it into CSS so that browser can understand.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like having different LESS files up because it keeps everything organized. I keep having trouble with the variables for media querys. I keep forgetting to use a colon when I define it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
